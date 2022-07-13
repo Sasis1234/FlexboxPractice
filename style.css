@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+
+.container {
+    border: 4px gray solid;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.lboxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: space-between;
+    width: 45%;
+}
+
+.longbox {
+    border: 4px gray solid;
+    height: 50px;
+    margin-bottom: 20px;
+}
+
+.rbox {
+    border: 4px gray solid;
+    width: 45%;
+    margin: 0px 20px;
+}
+
+.sboxcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sbox {
+    border: 4px gray solid;
+    height: 50px;
+    width: 31%;
+}
